@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>PocketSphinx.js</title>
+
+		<style>
+			body {
+				text-align: center;
+				font-family: Arial, Helvetica, sans-serif;
+			}
+			button {
+				background: #e6e6e6;
+				background: -moz-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
+				background: -ms-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
+				background: -o-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
+				background: -webkit-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
+				background: linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
+				border-radius: 3px;
+				border: 1px solid #969696;
+				color: #323232;
+				cursor: pointer;
+				display: inline-block;
+				font-size: 1em;
+				font-weight: bold;
+				margin: .2em;
+				overflow: hidden;
+				padding-left: 0.5em;
+				padding-right: 0.5em;
+				white-space: nowrap;
+			}
+		</style>
+
+	</head>
+
+	<body>
+
+		<h2>PocketSphinx.js Demo</h2>
+
+		<p>This demo will recognize English integers from 1 to 10.</p>
+
+		<button id="start_button">
+			Start
+		</button>
+
+		<button id="stop_button">
+			Stop
+		</button>
+
+		<div id="recording_indicator" style="display: none">
+			Listening
+		</div>
+
+		<h2>Recognition Output</h2>
+
+		<div id="output"></div>
+
+		<script src="js/main.js"></script>
+		<script src="lib/audioRecorder.js"></script>
+		<script src="lib/callbackManager.js"></script>
+
+	</body>
+
+</html>
