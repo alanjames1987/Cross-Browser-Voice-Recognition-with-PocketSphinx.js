@@ -30,6 +30,8 @@ Lastly, point your browser to `localhost:3000` to view the demo.
 
 Author
 ---
+Need more help? 
+Please email me.
 Alan James: [alanjames1987@gmail.com](mailto:alanjames1987@gmail.com)
 
 License
