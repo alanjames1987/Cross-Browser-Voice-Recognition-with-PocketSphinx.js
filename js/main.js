@@ -177,20 +177,6 @@ window.onload = function() {
 			// if a new hypothesis has been created
 			if (e.data.hasOwnProperty('hyp')) {
 
-				// Keyword detector
-				if (e.data.hyp.slice(-4) == 'ADEE') {
-
-					console.log('detected');
-
-					try {
-						// stop the keywork detector
-						recorder.stop();
-					} catch (e) {
-
-					}
-
-				}
-
 				var hypothesis = e.data.hyp;
 
 				if (outputContainer) {
