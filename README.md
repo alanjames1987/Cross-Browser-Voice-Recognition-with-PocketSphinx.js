@@ -22,7 +22,7 @@ Lastly, point your browser to `localhost:8888` to view the demo.
 
 ---
 
-If you use Server simply `cd` to the directory you downloaded this Git repo to. 
+If you use Serve simply `cd` to the directory you downloaded this Git repo to. 
 
 Then type `serve` into your terminal.
 
